@@ -67,12 +67,12 @@ CSQL = [
             server = json[server],
             database = json[database]
         in
-            { "CSQL.Database", server, database }, 
+            { "CSQL.Tables", server, database }, 
     Authentication = [
         Windows = [],
         UsernamePassword = []
     ],
-    Label = "Direct Query for SqlClient",
+    Label = "ADO.NET Query Folding for SQL",
     SupportsEncryption = false
 ];
 
